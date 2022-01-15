@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 2% 7%;
+}
+.hover{
+    position: absolute; top:0px; right:40%;
+}
+h4:hover{
+    color: rgb(223, 96, 96);
+    font-size: 3em;
+    position: absolute; top:0px; right: 0px;
+}
+.camera-area{
+    display: flex;
+    margin-top: 2%;
+  
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 20%;
+}
+#big-font{
+    font-size: 3em;
+}
+.btn{
+    border: none;
+    background-color: rgb(240, 57, 87);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+/* popular collection */
+.text-center{
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+}
+.product{
+    margin-top: 50px;
+    background-color: wheat;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.ratings{
+    display: flex;
+}
+.stars{
+    color: rgb(226, 226, 36);
+}
+.ratings h5{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.see-more{
+    position: absolute; right: 0px;
+    color: tomato;
+    font-weight: 800;
+    margin-right: 8%;
+    margin-top: 10px;
+}
+/* setup section */
+.setup-section{
+    margin-top: 10%;
+    display: flex;
+}
+.margin-left{
+    margin-left: 110px;
+}
+.big-txt{
+    font-size: 2em;
+}
+/* footer section */
+footer{
+    background-color: rgb(8, 8, 75);
+}
+.footer-section{
+    text-align: center;
+    color: white;
+}
+.copyright{
+    color: lightblue;
+}
+/* media query */
+/* @media only screen and (max-width:50px) {
+    
+    .camera-area{
+        background-color: red;
+    }
+} */
+
