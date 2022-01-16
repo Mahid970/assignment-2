@@ -80,8 +80,14 @@ body{
     margin-top: 10px;
 }
 /* setup section */
+.extra-section-txt{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2em;
+    
+}
 .setup-section{
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
 }
 .margin-left{
